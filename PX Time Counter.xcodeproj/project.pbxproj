@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D457CF121C9264D007055BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D457CF021C9264D007055BC /* AppDelegate.swift */; };
-		4D457CF321C9264D007055BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D457CF221C9264D007055BC /* ViewController.swift */; };
+		4D457CF321C9264D007055BC /* TmCuFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D457CF221C9264D007055BC /* TmCuFirstViewController.swift */; };
 		4D457CF621C9264D007055BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D457CF421C9264D007055BC /* Main.storyboard */; };
 		4D457CF921C9264D007055BC /* PX_Time_Counter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D457CF721C9264D007055BC /* PX_Time_Counter.xcdatamodeld */; };
 		4D457CFB21C9264E007055BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D457CFA21C9264E007055BC /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		4D457CED21C9264D007055BC /* PX Time Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PX Time Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D457CF021C9264D007055BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D457CF221C9264D007055BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D457CF221C9264D007055BC /* TmCuFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TmCuFirstViewController.swift; sourceTree = "<group>"; };
 		4D457CF521C9264D007055BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D457CF821C9264D007055BC /* PX_Time_Counter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PX_Time_Counter.xcdatamodel; sourceTree = "<group>"; };
 		4D457CFA21C9264E007055BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				4D457CF021C9264D007055BC /* AppDelegate.swift */,
-				4D457CF221C9264D007055BC /* ViewController.swift */,
+				4D457CF221C9264D007055BC /* TmCuFirstViewController.swift */,
 				4D457CF421C9264D007055BC /* Main.storyboard */,
 				4D457CFA21C9264E007055BC /* Assets.xcassets */,
 				4D457CFC21C9264E007055BC /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D457CF321C9264D007055BC /* ViewController.swift in Sources */,
+				4D457CF321C9264D007055BC /* TmCuFirstViewController.swift in Sources */,
 				4D457CF921C9264D007055BC /* PX_Time_Counter.xcdatamodeld in Sources */,
 				4D457CF121C9264D007055BC /* AppDelegate.swift in Sources */,
 			);
@@ -296,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.com.pixo.PX-Time-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "pl.com.pixo.PX-Time-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
